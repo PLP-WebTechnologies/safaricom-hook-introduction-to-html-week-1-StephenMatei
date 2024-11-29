@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple webpage showcasing basic HTML structure with text, images, and links.">
+    <meta name="keywords" content="HTML, webpage, design, images, links, SEO">
+    <meta name="author" content="Stephen Muthoka">
+    <title>Simple Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        header, footer {
+            background-color: #0078d7;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        nav {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        section {
+            padding: 2rem;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 1rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Simple Webpage</h1>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section>
+        <div class="container">
+            <article id="about">
+                <h2>About This Page</h2>
+                <p>This webpage demonstrates the use of basic HTML tags like <code>h1</code>, <code>p</code>, <code>a</code>, <code>img</code>, and list tags, as well as semantic tags like <code>header</code>, <code>footer</code>, <code>nav</code>, <code>section</code>, and <code>article</code>.</p>
+            </article>
+            <article id="services">
+                <h2>Services</h2>
+                <p>We offer the following services:</p>
+                <ul>
+                    <li>Web Design</li>
+                    <li>Graphic Design</li>
+                    <li>SEO Optimization</li>
+                </ul>
+                <img src="image4.jpg" alt="Sample image">
+            </article>
+        </div>
+    </section>
+    <footer>
+        <p>Contact us at <a href="#contact">email@example.com</a> or call +123 456 7890.</p>
+        <p>&copy; 2024 Simple Webpage. All rights reserved.</p>
+    </footer>
+</body>
+</html>
